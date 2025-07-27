@@ -26,7 +26,6 @@ const Contact = (props) => {
             subject,
             message,
         };
-
         emailjs
             .send(
                 process.env.REACT_APP_EMAILJS_SERVICE_ID,

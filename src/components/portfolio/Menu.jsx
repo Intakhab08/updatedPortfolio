@@ -7,33 +7,41 @@ const Menu = [
 	{
 		id: 1,
 		image: Work1,
-		title: "React Native Jobs App",
+		title: "Advertisement Management System",
 		category: ["Frontend", "React"],
-		repositoryUrl: "https://github.com/GregSithole/react-native-jobs"
+		repositoryUrl: "https://github.com/Group1JSD/backend-city"
 	},
 	{
 		id: 2,
 		image: Work2,
-		title: "Cryptoverse",
+		title: "Pi-Store E-commerce",
 		category: ["Frontend", "React"],
-		url: "https://cryptoverse.gregsithole.com",
-		repositoryUrl: "https://github.com/GregSithole/crypto-app"
+		url: "https://totalitycorp-frontend-challenge-store.netlify.app",
+		repositoryUrl: "https://github.com/Intakhab08/pi-store"
 	},
 	{
 		id: 3,
 		image: Work3,
-		title: "Travel Advisor",
+		title: "Banking System",
 		category: ["Frontend"],
-		url: "https://travel.gregsithole.com",
-		repositoryUrl: "https://github.com/GregSithole/travel-advisor"
+		// url: "https://travel.gregsithole.com",
+		repositoryUrl: "https://github.com/Intakhab08/Basic-Banking-system"
 	},
 	{
 		id: 4,
 		image: Work4,
-		title: "Wallhaven CLI",
+		title: "Tech Blog Application",
 		category: ["Backend"],
-		url: "https://www.npmjs.com/package/wallhaven-cli",
-		repositoryUrl: "https://github.com/GregSithole/wallhaven-cli"
+		// url: "https://www.npmjs.com/package/wallhaven-cli",
+		repositoryUrl: "https://github.com/Intakhab08/Tech-blog-web-application"
+	},
+	{
+		id: 5,
+		image: Work4,
+		title: "Media Player Application",
+		category: ["Backend"],
+		// url: "https://www.npmjs.com/package/wallhaven-cli",
+		repositoryUrl: "https://github.com/Intakhab08/Media-player"
 	}
 ];
 

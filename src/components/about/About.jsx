@@ -20,18 +20,20 @@ const About = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">
-                            Hello! I'm Greg, and I'm based in Johannesburg, South Africa. I studied at Varisty College Sandton, where I completed my diploma in Software Development.<br /><br />
-                            Fastforward to today, and I can honestly say it's been a beautiful journery and I hope to grow even further as Software Engineer. My current focus these days
+                            Hello! I'm Intakhab, and I'm based in Noida, Uttar Pradesh. I studied at Noida Institute of Engineering and Technology, where I completed my bachelors in Software Development.<br /><br />
+                            Fastforward to today, and I can honestly say it's been a beautiful journery and I hope to grow even further as Software Developer. My current focus these days
                             is on expanidng my portfolio by building more projects that I can add on here, as well as being a great team player at my current role.<br /><br />
                             Here are a few technologies I’ve been working with recently:
                         </p>
                         <ul className="about__list">
+                            <li>Java</li>
+                            <li>Spring Framework</li>
+                            <li>Spring Boot</li>
+                            <li>Hibernate</li>
                             <li>JavaScript (ES6+)</li>
-                            <li>TypeScript</li>
                             <li>React</li>
-                            <li>Node.js</li>
-                            <li>Postgres SQL</li>
-                            <li>NestJS</li>
+                            <li>SQL</li>
+                            <li>Microsoft Azure</li>
                         </ul>
                         <button className="btn" onClick={downloadResume}>Donwload CV</button>
                     </div>
