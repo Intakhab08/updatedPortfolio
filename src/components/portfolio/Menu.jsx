@@ -32,7 +32,7 @@ const Menu = [
 		image: Work4,
 		title: "Tech Blog Application",
 		category: ["Backend"],
-		// url: "https://www.npmjs.com/package/wallhaven-cli",
+		url: "https://techblog-8mc3.onrender.com/index.jsp",
 		repositoryUrl: "https://github.com/Intakhab08/Tech-blog-web-application"
 	},
 	{
