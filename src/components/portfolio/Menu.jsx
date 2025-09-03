@@ -31,7 +31,7 @@ const Menu = [
 		id: 4,
 		image: Work4,
 		title: "Tech Blog Application",
-		category: ["Backend"],
+		category: ["Backend","Frontend"],
 		url: "https://techblog-8mc3.onrender.com/index.jsp",
 		repositoryUrl: "https://github.com/Intakhab08/Tech-blog-web-application"
 	},
