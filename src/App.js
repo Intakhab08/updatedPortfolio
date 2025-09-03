@@ -8,6 +8,7 @@ import Resume from './components/resume/Resume';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact';
 import useLocalStorage from 'use-local-storage'
+import Skills from './components/skills/Skills';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             <main className='main'>
                 <Home />
                 <About />
+                <Skills/>
                 <Services />
                 <Resume />
                 <Portfolio />

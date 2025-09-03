@@ -1,0 +1,97 @@
+.services__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.875rem;
+}
+
+.services__card {
+  text-align: center;
+  padding: 1.875rem;
+  border-radius: var(--border-radius);
+  background-color: var(--container-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.services__card:hover {
+  transform: translateY(-10px);
+}
+
+/* Custom background colors for variety */
+.services__card:nth-child(1) {
+  background-color: rgb(108, 108, 229);
+  box-shadow: 0 5px 20px 0 rgb(108, 108, 229 / 50%);
+}
+
+.services__card:nth-child(2) {
+  background-color: rgb(249, 215, 76);
+  box-shadow: 0 5px 20px 0 rgb(249, 215, 76 / 50%);
+}
+
+.services__card:nth-child(3) {
+  background-color: rgb(249, 123, 139);
+  box-shadow: 0 5px 20px 0 rgb(249, 123, 139 / 50%);
+}
+
+.services__card:nth-child(4) {
+  background-color: rgb(76, 201, 249);
+  box-shadow: 0 5px 20px 0 rgb(76, 201, 249 / 50%);
+}
+
+.services__card:nth-child(5) {
+  background-color: rgb(123, 201, 108);
+  box-shadow: 0 5px 20px 0 rgb(123, 201, 108 / 50%);
+}
+
+.services__card:nth-child(6) {
+  background-color: rgb(255, 159, 67);
+  box-shadow: 0 5px 20px 0 rgb(255, 159, 67 / 50%);
+}
+
+.services__img {
+  margin-bottom: 1.25rem;
+}
+
+.services__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.services__description {
+  color: #f8f9fa;
+  font-weight: bold;
+}
+
+.services__card:nth-child(2) .services__title,
+.services__card:nth-child(2) .services__description {
+  color: var(--title-color);
+}
+
+[data-theme="dark"] .services__card:nth-child(2) .services__title,
+[data-theme="dark"] .services__card:nth-child(2) .services__description {
+  color: var(--body-color);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1024px) {
+  .services__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services__container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.services__img {
+  margin-bottom: 1.25rem;
+  transition: transform 0.4s ease-in-out;
+}
+
+.services__card:hover .services__img {
+  transform: scale(1.2) rotate(10deg);
+}
+
